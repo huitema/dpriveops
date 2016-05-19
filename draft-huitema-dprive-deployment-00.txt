@@ -1,0 +1,224 @@
+
+
+
+
+Network Working Group                                         C. Huitema
+Internet-Draft                                                 Microsoft
+Intended status: Informational                              May 18, 2016
+Expires: November 19, 2016
+
+
+                     DNS Privacy Deployment Issues
+                 draft-huitema-dprive-deployment-00.txt
+
+Abstract
+
+   Bypassing the local DNS may or may not be a good idea.  It depends.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at http://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on November 19, 2016.
+
+Copyright Notice
+
+   Copyright (c) 2016 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents
+   (http://trustee.ietf.org/license-info) in effect on the date of
+   publication of this document.  Please review these documents
+   carefully, as they describe your rights and restrictions with respect
+   to this document.  Code Components extracted from this document must
+   include Simplified BSD License text as described in Section 4.e of
+   the Trust Legal Provisions and are provided without warranty as
+   described in the Simplified BSD License.
+
+
+
+
+
+
+
+Huitema                 Expires November 19, 2016               [Page 1]
+
+Internet-Draft        DNS Privacy Deployment Issues             May 2016
+
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Depoyment Issues  . . . . . . . . . . . . . . . . . . . . . .   2
+     2.1.  DNS service discovery . . . . . . . . . . . . . . . . . .   2
+   3.  Proposed Guidelines . . . . . . . . . . . . . . . . . . . . .   2
+   4.  Security Considerations . . . . . . . . . . . . . . . . . . .   2
+   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   2
+   6.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   2
+   7.  Informative References  . . . . . . . . . . . . . . . . . . .   2
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   4
+
+1.  Introduction
+
+   Push for privacy, etc.
+
+2.  Depoyment Issues
+
+2.1.  DNS service discovery
+
+3.  Proposed Guidelines
+
+4.  Security Considerations
+
+   This draft does not introduce any new protocol.  It does point to
+   potential privacy issues in a set of existing protocols.
+
+5.  IANA Considerations
+
+   This draft does not require any IANA action.
+
+6.  Acknowledgments
+
+   Contributions will be gladly acknowledged.
+
+7.  Informative References
+
+   [CERT2015]
+              US_CERT, "Alert (TA15-240A) Controlling Outbound DNS
+              Access", august 2015, <https://www.us-
+              cert.gov/ncas/alerts/TA15-240A>.
+
+   [I-D.ietf-dprive-dnsodtls]
+              Reddy, T., Wing, D., and P. Patil, "DNS over DTLS
+              (DNSoD)", draft-ietf-dprive-dnsodtls-06 (work in
+              progress), April 2016.
+
+
+
+
+
+Huitema                 Expires November 19, 2016               [Page 2]
+
+Internet-Draft        DNS Privacy Deployment Issues             May 2016
+
+
+   [I-D.shane-review-dns-over-http]
+              Kerr, S., Song, D., and R. Wan, "A review of
+              implementation DNS over port 80/443", draft-shane-review-
+              dns-over-http-03 (work in progress), May 2016.
+
+   [RFC1033]  Lottor, M., "Domain Administrators Operations Guide",
+              RFC 1033, DOI 10.17487/RFC1033, November 1987,
+              <http://www.rfc-editor.org/info/rfc1033>.
+
+   [RFC1035]  Mockapetris, P., "Domain names - implementation and
+              specification", STD 13, RFC 1035, DOI 10.17487/RFC1035,
+              November 1987, <http://www.rfc-editor.org/info/rfc1035>.
+
+   [RFC2131]  Droms, R., "Dynamic Host Configuration Protocol",
+              RFC 2131, DOI 10.17487/RFC2131, March 1997,
+              <http://www.rfc-editor.org/info/rfc2131>.
+
+   [RFC2132]  Alexander, S. and R. Droms, "DHCP Options and BOOTP Vendor
+              Extensions", RFC 2132, DOI 10.17487/RFC2132, March 1997,
+              <http://www.rfc-editor.org/info/rfc2132>.
+
+   [RFC2782]  Gulbrandsen, A., Vixie, P., and L. Esibov, "A DNS RR for
+              specifying the location of services (DNS SRV)", RFC 2782,
+              DOI 10.17487/RFC2782, February 2000,
+              <http://www.rfc-editor.org/info/rfc2782>.
+
+   [RFC3315]  Droms, R., Ed., Bound, J., Volz, B., Lemon, T., Perkins,
+              C., and M. Carney, "Dynamic Host Configuration Protocol
+              for IPv6 (DHCPv6)", RFC 3315, DOI 10.17487/RFC3315, July
+              2003, <http://www.rfc-editor.org/info/rfc3315>.
+
+   [RFC3596]  Thomson, S., Huitema, C., Ksinant, V., and M. Souissi,
+              "DNS Extensions to Support IP Version 6", RFC 3596,
+              DOI 10.17487/RFC3596, October 2003,
+              <http://www.rfc-editor.org/info/rfc3596>.
+
+   [RFC4795]  Aboba, B., Thaler, D., and L. Esibov, "Link-local
+              Multicast Name Resolution (LLMNR)", RFC 4795,
+              DOI 10.17487/RFC4795, January 2007,
+              <http://www.rfc-editor.org/info/rfc4795>.
+
+   [RFC6762]  Cheshire, S. and M. Krochmal, "Multicast DNS", RFC 6762,
+              DOI 10.17487/RFC6762, February 2013,
+              <http://www.rfc-editor.org/info/rfc6762>.
+
+   [RFC6763]  Cheshire, S. and M. Krochmal, "DNS-Based Service
+              Discovery", RFC 6763, DOI 10.17487/RFC6763, February 2013,
+              <http://www.rfc-editor.org/info/rfc6763>.
+
+
+
+Huitema                 Expires November 19, 2016               [Page 3]
+
+Internet-Draft        DNS Privacy Deployment Issues             May 2016
+
+
+   [RFC7288]  Thaler, D., "Reflections on Host Firewalls", RFC 7288,
+              DOI 10.17487/RFC7288, June 2014,
+              <http://www.rfc-editor.org/info/rfc7288>.
+
+   [RFC7858]  Hu, Z., Zhu, L., Heidemann, J., Mankin, A., Wessels, D.,
+              and P. Hoffman, "Specification for DNS over Transport
+              Layer Security (TLS)", RFC 7858, DOI 10.17487/RFC7858, May
+              2016, <http://www.rfc-editor.org/info/rfc7858>.
+
+Author's Address
+
+   Christian Huitema
+   Microsoft
+   Redmond, WA  98052
+   U.S.A.
+
+   Email: huitema@microsoft.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Huitema                 Expires November 19, 2016               [Page 4]

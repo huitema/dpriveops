@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd" [
+
+<!ENTITY rfc1033 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.1033.xml'>
+<!ENTITY rfc1035 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.1035.xml'>
+<!ENTITY rfc2131 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.2131.xml'>
+<!ENTITY rfc2132 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.2132.xml'>
+<!ENTITY rfc2782 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.2782.xml'>
+<!ENTITY rfc3315 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.3315.xml'>
+
+<!ENTITY rfc3596 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.3596.xml'>
+
+<!ENTITY rfc4795 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.4795.xml'>
+
+<!ENTITY rfc6762 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.6762.xml'>
+
+<!ENTITY rfc6763 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.6763.xml'>
+
+<!ENTITY rfc7288 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.7288.xml'>
+
+<!ENTITY rfc7858 PUBLIC ''
+   'http://xml.resource.org/public/rfc/bibxml/reference.RFC.7858.xml'>
+
+<!ENTITY I-D.ietf-dprive-dnsodtls PUBLIC ''  
+   "http://xml.resource.org/public/rfc/bibxml3/reference.I-D.ietf-dprive-dnsodtls.xml">
+ 
+<!ENTITY I-D.shane-review-dns-over-http PUBLIC ''  
+   "http://xml.resource.org/public/rfc/bibxml3/reference.I-D.shane-review-dns-over-http.xml"> 
+
+]>
+
+<?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
+<?rfc compact="yes"?>
+<?rfc toc="yes"?>
+<?rfc symrefs="yes"?>
+<?rfc sortrefs="yes"?>
+
+<!-- Expand crefs and put them inline -->
+<?rfc comments='yes' ?>
+<?rfc inline='yes' ?>
+
+<rfc category="info" 
+     docName="draft-huitema-dprive-deployment-00.txt" 
+     ipr="trust200902">
+
+<front>
+    <title abbrev="DNS Privacy Deployment Issues">
+      DNS Privacy Deployment Issues
+    </title>
+
+   <author fullname="Christian Huitema" initials="C." surname="Huitema">
+      <organization>Microsoft</organization>
+      <address>
+        <postal>
+          <street> </street>
+          <city>Redmond</city>
+          <code>98052</code>
+          <region>WA</region>
+          <country>U.S.A.</country>
+        </postal>
+        <email>huitema@microsoft.com</email>
+      </address>
+    </author>
+
+    <date year="2016" />
+
+    <abstract>
+        <t> 
+Bypassing the local DNS may or may not be a good idea. It depends.
+</t>
+    </abstract>
+</front>
+
+<middle>
+<section title="Introduction">
+<t>
+Push for privacy, etc.
+</t>
+</section>
+<section title="Depoyment Issues">
+<t>
+</t>
+
+<section title="DNS service discovery" >
+<t>
+</t>
+</section>
+
+</section>
+
+<section title="Proposed Guidelines" >
+<t>
+</t>
+<t>
+</t>
+</section>
+
+<section title="Security Considerations">
+<t> 
+This draft does not introduce any new protocol. It does point to
+potential privacy issues in a set of existing protocols.
+</t>
+</section>
+
+<section title="IANA Considerations" anchor="iana">
+<t> 
+This draft does not require any IANA action.
+</t> 
+</section>
+
+<section title="Acknowledgments">
+    <t>
+Contributions will be gladly acknowledged.
+    </t>
+</section>
+</middle>
+
+<back>
+
+<references title="Informative References">
+
+       &rfc1033;
+       &rfc1035;
+       &rfc2131;
+       &rfc2132;
+       &rfc2782;
+       &rfc3315;
+       &rfc3596;
+       &rfc4795;
+       &rfc6762;
+       &rfc6763;
+       &rfc7288;
+
+       &rfc7858;
+       &I-D.ietf-dprive-dnsodtls;
+       &I-D.shane-review-dns-over-http;
+
+
+
+<reference anchor="CERT2015" target="https://www.us-cert.gov/ncas/alerts/TA15-240A">
+  <front>
+    <title>Alert (TA15-240A) Controlling Outbound DNS Access</title>
+    <author>
+      <organization>US_CERT</organization>
+    </author>
+    <date day="28" month="august" year="2015"/>
+  </front>
+</reference>
+
+
+
+</references>  
+
+</back>
+</rfc>
